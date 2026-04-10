@@ -12,7 +12,7 @@ body{
     scroll-behavior: smooth;
 }
 section{
-    padding: 60px 5%;
+    padding: 80px 5%;
 }
 .logo{
     font-size: 2rem;
@@ -56,6 +56,8 @@ section{
     background-color: rgb(251, 222, 56);
     color:black;
     transform: scale(1.05);
+     box-shadow: 0 0 10px #fff;
+
 }
 .heading{
     text-align: center;
@@ -86,6 +88,8 @@ section{
    
     background-color: rgb(209, 156, 59);
     transform: scale(1.05);
+    box-shadow: 0 0 10px #fff;
+
 }
 .hero{
     display: flex;
@@ -136,11 +140,6 @@ p{
     margin: 0.5rem auto;
     text-align: center;
 }
-
-#about{
-    margin-top: 5rem;
-}
-
 .contact-form{
     display: flex;
     justify-content: center;
@@ -151,7 +150,7 @@ p{
     border-radius: 5px;
     border: none;
     width: 100%;
-    margin: 0.4rem auto;
+    margin: 0.3rem auto;
 }
 #contact{
     margin-top: 5rem;
@@ -174,6 +173,7 @@ p{
    .hero-img img{
         max-width: 100%;
         height: auto;
+        object-fit: contain;
     }
     .hero-content{
         width: 100%;
