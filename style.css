@@ -126,6 +126,8 @@ section{
     box-shadow: 0px 2px 3px rgb(177, 225, 223);
     text-align: center;
      transition: 0.3s;
+     box-shadow: 0 0 10px #fff;
+
 
 }
 .service-card:hover{
