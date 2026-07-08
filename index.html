@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
@@ -14,15 +18,19 @@
         <nav class="navbar">
             <div class="logo">ABC Tech Solutions</div>
 
-
-            <ul>
+              <div class="ham" id="ham">
+            <i class="fa-solid fa-bars"></i>
+         </div>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="cta">Get Started</a></li>
+
+
             </ul>
 
-            <a href="#contact" class="cta">Get Started</a>
         </nav>
 
     </header>
@@ -70,25 +78,24 @@
         </section>
 
         <section id="about" class="about">
+
             <h1>ABC Tech Solutions Introduction</h1>
-            <p>ABC Tech Solutions is a forward-thinking digital agency specializing in web development, design, and
-                online marketing. Our team is dedicated to delivering innovative solutions that help businesses grow and
-                succeed in the digital world.</p>
+            <p>At ABC Tech Solutions, we create modern, responsive, and user-friendly websites that help businesses build a strong online presence. Our focus is on clean design, fast performance, and quality development. We are committed to delivering reliable digital solutions that combine creativity, innovation, and a seamless user experience.</p>
         </section>
 
 
         <section id="contact">
             <h1>Contact</h1>
             <br>
-            <div class="contact-form">
+            <div class="contact-form" id="contact-page">
                 <form action="">
-                    <input type="text" placeholder="Name" required>
+                    <input type="text" id="name" placeholder="Name" required>
                     <br>
-                    <input type="email" placeholder="Email" required>
+                    <input type="email" id="email" placeholder="Email" required>
                     <br>
-                    <textarea id="message" name="message" rows="4" cols="25" placeholder="Enter your message here..."
-                        required></textarea><br>
-                    <button class="btn">Submit</button>
+                    <textarea id="message" name="message" rows="4" cols="32" placeholder="Enter your message here..."
+                        ></textarea><br>
+                    <button class="Submit">Submit</button>
 
                 </form>
             </div>
@@ -99,7 +106,7 @@
             <p class="fot">© 2026 ABC Tech Solutions. All rights reserved.</p>
         </div>
     </footer>
-
+   <script src="script.js"></script>
 </body>
 
-</html>
+</html> 
