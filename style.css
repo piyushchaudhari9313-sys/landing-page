@@ -199,6 +199,10 @@ p {
 }
 textarea {
   font-size: 19px;
+  width: 100%;
+  max-width: 100%;
+  resize: vertical;
+  box-sizing: border-box;
 }
 #contact {
   margin-top: 5rem;
@@ -239,6 +243,7 @@ textarea {
   }
   .ham {
     display: block;
+    margin-left:15px;
   }
   .nav-links {
     display: none;
@@ -279,7 +284,7 @@ textarea {
     justify-content: space-between;
     align-items: center;
     top: 0;
-    gap: 2rem;
+    gap: 1.5rem;
     z-index: 1000;
     left: 0;
     position: fixed;
@@ -299,6 +304,9 @@ textarea {
     width: 100%;
     line-height: 1.7;
     max-width: 350px;
+  }
+  .contact-form{
+    width: 90%;
   }
 }
 
