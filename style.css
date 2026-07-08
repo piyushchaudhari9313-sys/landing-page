@@ -245,8 +245,7 @@ textarea {
   .hero {
     flex-direction: column;
     gap: 1rem;
-    margin-top: 10px;
-
+      margin-top: 10px;
   }
   .ham {
     display: block;
