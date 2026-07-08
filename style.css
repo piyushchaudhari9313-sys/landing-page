@@ -19,7 +19,6 @@
 body {
   background: linear-gradient(135deg, #0b1120, #1e3a8a, #2563eb);
   color: #f8fafc;
-  scroll-behavior: smooth;
   background-attachment: fixed;
 }
 html{
