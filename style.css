@@ -15,16 +15,15 @@
     "Helvetica Neue",
     sans-serif;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   background: linear-gradient(135deg, #0b1120, #1e3a8a, #2563eb);
   color: #f8fafc;
+  scroll-behavior: smooth;
   background-attachment: fixed;
 }
-html{
-      scroll-behavior: smooth;
-
-  }
 
 .ham {
   display: none;
@@ -106,15 +105,16 @@ section {
   background-color: #07cedd;
   padding: 0.6rem 2rem;
   border: none;
-  color:white;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
   font-size: 20px;
+  color: white;
 }
 .btn:hover {
   background-color: white;
   transform: scale(1.05);
+  color: black;
   box-shadow: 0 0 10px #fff;
 }
 .hero {
@@ -309,9 +309,13 @@ textarea {
     padding: 1rem;
   }
   .about p {
-    text-align: justify;
+    text-align: justify; 
     font-size: 25px;
     width: 100%;
+    hyphens: auto;
+    overflow-wrap: break-word;
+
+
   }
  
 }
